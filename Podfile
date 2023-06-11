@@ -1,7 +1,7 @@
-platform :osx, '10.10'
+platform :osx, '13.0'
 use_frameworks!
 
-target 'Clipy' do
+target 'ClipyFork' do
 
   # Application
   pod 'PINCache'
@@ -10,7 +10,7 @@ target 'Clipy' do
   pod 'RealmSwift'
   pod 'RxCocoa'
   pod 'RxSwift'
-  pod 'LoginServiceKit', :git => 'https://github.com/Clipy/LoginServiceKit.git'
+#  pod 'LoginServiceKit', :git => 'https://github.com/Clipy/LoginServiceKit.git'
   pod 'KeyHolder'
   pod 'Magnet'
   pod 'RxScreeen'
@@ -22,12 +22,22 @@ target 'Clipy' do
   pod 'SwiftLint'
   pod 'SwiftGen'
 
-  target 'ClipyTests' do
-    inherit! :search_paths
+#  target 'ClipyTests' do
+#    inherit! :search_paths
+#
+#    pod 'Quick'
+#    pod 'Nimble'
 
-    pod 'Quick'
-    pod 'Nimble'
+#  end
 
+end
+
+post_install do |installer|
+  installer.generated_projects.each do |project|
+    project.targets.each do |target|
+        target.build_configurations.each do |config|
+            config.build_settings['MACOS_DEPLOYMENT_TARGET'] = '13.0'
+         end
+    end
   end
-
 end

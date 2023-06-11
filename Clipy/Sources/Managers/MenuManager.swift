@@ -65,12 +65,14 @@ extension MenuManager {
         switch type {
         case .main:
             menu = clipMenu
+            menu?.minimumWidth = 500
         case .history:
             menu = historyMenu
         case .snippet:
             menu = snippetMenu
         }
-        menu?.popUp(positioning: nil, at: NSEvent.mouseLocation, in: nil)
+//        menu?.popUp(positioning: nil, at: NSEvent.mouseLocation, in: nil)
+        menu?.popUp(positioning: nil, at: NSPoint(x: NSEvent.mouseLocation.x - menu!.size.width / 2, y: NSEvent.mouseLocation.y), in: nil)
     }
 
     func popUpSnippetFolder(_ folder: CPYFolder) {
@@ -281,17 +283,17 @@ private extension MenuManager {
             if placeInLine < 1 || placeInLine - 1 < i {
                 // Folder
                 if i == subMenuCount {
-                    let subMenuItem = makeSubmenuItem(subMenuCount, start: firstIndex, end: currentSize, numberOfItems: placeInsideFolder)
-                    menu.addItem(subMenuItem)
-                    listNumber = firstIndex
+//                    let subMenuItem = makeSubmenuItem(subMenuCount, start: firstIndex, end: currentSize, numberOfItems: placeInsideFolder)
+//                    menu.addItem(subMenuItem)
+//                    listNumber = firstIndex
                 }
 
-                // Clip
-                if let subMenu = menu.item(at: subMenuIndex)?.submenu {
+                // CliplistNumber = incrementListNumber(listNumber, max: placeIns
+//                if let subMenu = menu.item(at: subMenuIndex)?.submenu {
                     let menuItem = makeClipMenuItem(clip, index: i, listNumber: listNumber)
-                    subMenu.addItem(menuItem)
+                    menu.addItem(menuItem)
                     listNumber = incrementListNumber(listNumber, max: placeInsideFolder, start: firstIndex)
-                }
+//                }NSPasteboard.general.changeCountDisposeBag
             } else {
                 // Clip
                 let menuItem = makeClipMenuItem(clip, index: i, listNumber: listNumber)

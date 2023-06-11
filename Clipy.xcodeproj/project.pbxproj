@@ -7,10 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		242EC2327861D35B7C3AE84E /* Pods_ClipyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00A4B450122D7FCE6BD57E77 /* Pods_ClipyTests.framework */; };
-		B7CC520B88EAA6AD38E93462 /* Pods_Clipy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73A92F6DEE6CFF50A567CFEF /* Pods_Clipy.framework */; };
+		082B9D09C3C9A8C7282A3C61 /* Pods_ClipyFork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12544BD7792C38337D44098A /* Pods_ClipyFork.framework */; };
 		C5F1B7331FF74A2D00D2DA83 /* NSPasteboard+Deprecated.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F1B7321FF74A2D00D2DA83 /* NSPasteboard+Deprecated.swift */; };
-		FA08EDF81D1FED7D000D1D13 /* HotKeyServiceSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA08EDF71D1FED7D000D1D13 /* HotKeyServiceSpec.swift */; };
 		FA0D5CE81DDCC61600AC9052 /* ClipService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0D5CE71DDCC61600AC9052 /* ClipService.swift */; };
 		FA10897D20EC22E200A3FEFC /* AssetsImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA10897B20EC22E200A3FEFC /* AssetsImages.swift */; };
 		FA10897E20EC22E200A3FEFC /* LocalizedStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA10897C20EC22E200A3FEFC /* LocalizedStrings.swift */; };
@@ -64,11 +62,8 @@
 		FA3778931F3B691A003B5BAB /* AppEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3778921F3B691A003B5BAB /* AppEnvironment.swift */; };
 		FA3778951F3B6920003B5BAB /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3778941F3B6920003B5BAB /* Environment.swift */; };
 		FA431F021E6718CE00ACFF56 /* Collection+Safe.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA431F011E6718CE00ACFF56 /* Collection+Safe.swift */; };
-		FA6167921D3ABEB10049FA14 /* FolderSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6167911D3ABEB10049FA14 /* FolderSpec.swift */; };
-		FA6167941D3ACCB90049FA14 /* DraggedDataSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6167931D3ACCB90049FA14 /* DraggedDataSpec.swift */; };
-		FA6167961D3ACDD80049FA14 /* SnippetSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6167951D3ACDD80049FA14 /* SnippetSpec.swift */; };
-		FA6DD5141C7DEDB600317E73 /* BuildFile in Resources */ = {isa = PBXBuildFile; };
-		FA6DD5151C7DEDB600317E73 /* BuildFile in Resources */ = {isa = PBXBuildFile; };
+		FA6DD5141C7DEDB600317E73 /* (null) in Resources */ = {isa = PBXBuildFile; };
+		FA6DD5151C7DEDB600317E73 /* (null) in Resources */ = {isa = PBXBuildFile; };
 		FAA4BCCC2163DC9100FF5D18 /* AccessibilityService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA4BCCB2163DC9100FF5D18 /* AccessibilityService.swift */; };
 		FAC0DCE91DE15FD900309C49 /* DataCleanService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC0DCE81DE15FD900309C49 /* DataCleanService.swift */; };
 		FAC0DCEF1DE3255E00309C49 /* NSImage+NSColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC0DCEE1DE3255E00309C49 /* NSImage+NSColor.swift */; };
@@ -81,16 +76,6 @@
 		FAE911B91DE045E2008A4BEC /* HotKeyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE911B81DE045E2008A4BEC /* HotKeyService.swift */; };
 		FAE911BB1DE054F1008A4BEC /* NSCoding+Archive.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE911BA1DE054F1008A4BEC /* NSCoding+Archive.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		FAC43DD91B35D8B100C06102 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FAC43DBE1B35D8B100C06102 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FAC43DC51B35D8B100C06102;
-			remoteInfo = Clipy;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		FAC43E1D1B35DF4A00C06102 /* Embed Frameworks */ = {
@@ -107,12 +92,14 @@
 
 /* Begin PBXFileReference section */
 		00A4B450122D7FCE6BD57E77 /* Pods_ClipyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClipyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		12544BD7792C38337D44098A /* Pods_ClipyFork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClipyFork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C2D23FF23B07B76585DC610 /* Pods-ClipyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClipyTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ClipyTests/Pods-ClipyTests.release.xcconfig"; sourceTree = "<group>"; };
 		31064F137CFB046737D1709D /* Pods-Clipy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Clipy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Clipy/Pods-Clipy.debug.xcconfig"; sourceTree = "<group>"; };
 		314B299D1EC49AD5004DD070 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/CPYSnippetsEditorWindowController.xib; sourceTree = "<group>"; };
 		314B299E1EC49AEF004DD070 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/CPYSnippetsEditorWindowController.strings; sourceTree = "<group>"; };
 		314B299F1EC49BAF004DD070 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/CPYPreferencesWindowController.xib; sourceTree = "<group>"; };
 		314B29A11EC49D31004DD070 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/CPYPreferencesWindowController.strings; sourceTree = "<group>"; };
+		319466107B5C97A8EA204A03 /* Pods-ClipyFork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClipyFork.release.xcconfig"; path = "Pods/Target Support Files/Pods-ClipyFork/Pods-ClipyFork.release.xcconfig"; sourceTree = "<group>"; };
 		31ACA9F01EC5B85B00BD34C0 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/CPYPreferencesWindowController.strings; sourceTree = "<group>"; };
 		31ACA9F11EC5B85B00BD34C0 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/CPYBetaPreferenceViewController.strings; sourceTree = "<group>"; };
 		31ACA9F21EC5B85B00BD34C0 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/CPYExcludeAppPreferenceViewController.strings; sourceTree = "<group>"; };
@@ -133,7 +120,6 @@
 		54ADE1012008F64100239852 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/CPYUpdatesPreferenceViewController.strings"; sourceTree = "<group>"; };
 		54ADE1022008F64100239852 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/CPYSnippetsEditorWindowController.strings"; sourceTree = "<group>"; };
 		54ADE1032008F64100239852 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
-		73A92F6DEE6CFF50A567CFEF /* Pods_Clipy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Clipy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		846004961FD5511800BA733E /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/CPYPreferencesWindowController.strings; sourceTree = "<group>"; };
 		846004971FD5511900BA733E /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/CPYBetaPreferenceViewController.strings; sourceTree = "<group>"; };
 		846004981FD5511900BA733E /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/CPYExcludeAppPreferenceViewController.strings; sourceTree = "<group>"; };
@@ -147,7 +133,7 @@
 		994536AAB91CE22186C3CFB1 /* Pods-ClipyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClipyTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ClipyTests/Pods-ClipyTests.debug.xcconfig"; sourceTree = "<group>"; };
 		9DBBF976436A0651CB8BD4B2 /* Pods-Clipy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Clipy.release.xcconfig"; path = "Pods/Target Support Files/Pods-Clipy/Pods-Clipy.release.xcconfig"; sourceTree = "<group>"; };
 		C5F1B7321FF74A2D00D2DA83 /* NSPasteboard+Deprecated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSPasteboard+Deprecated.swift"; sourceTree = "<group>"; };
-		FA08EDF71D1FED7D000D1D13 /* HotKeyServiceSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotKeyServiceSpec.swift; sourceTree = "<group>"; };
+		ED15800E6D4F0DCED99C1155 /* Pods-ClipyFork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClipyFork.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ClipyFork/Pods-ClipyFork.debug.xcconfig"; sourceTree = "<group>"; };
 		FA0D5CE71DDCC61600AC9052 /* ClipService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClipService.swift; sourceTree = "<group>"; };
 		FA10897B20EC22E200A3FEFC /* AssetsImages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssetsImages.swift; sourceTree = "<group>"; };
 		FA10897C20EC22E200A3FEFC /* LocalizedStrings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizedStrings.swift; sourceTree = "<group>"; };
@@ -195,9 +181,6 @@
 		FA3778921F3B691A003B5BAB /* AppEnvironment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppEnvironment.swift; sourceTree = "<group>"; };
 		FA3778941F3B6920003B5BAB /* Environment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
 		FA431F011E6718CE00ACFF56 /* Collection+Safe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Collection+Safe.swift"; sourceTree = "<group>"; };
-		FA6167911D3ABEB10049FA14 /* FolderSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FolderSpec.swift; sourceTree = "<group>"; };
-		FA6167931D3ACCB90049FA14 /* DraggedDataSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DraggedDataSpec.swift; sourceTree = "<group>"; };
-		FA6167951D3ACDD80049FA14 /* SnippetSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnippetSpec.swift; sourceTree = "<group>"; };
 		FAA4BCCB2163DC9100FF5D18 /* AccessibilityService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityService.swift; sourceTree = "<group>"; };
 		FAAA885C1E6853B80088FB34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/CPYBetaPreferenceViewController.xib; sourceTree = "<group>"; };
 		FAAA88621E6858030088FB34 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/CPYBetaPreferenceViewController.strings; sourceTree = "<group>"; };
@@ -216,8 +199,7 @@
 		FAC0DCE81DE15FD900309C49 /* DataCleanService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataCleanService.swift; sourceTree = "<group>"; };
 		FAC0DCEE1DE3255E00309C49 /* NSImage+NSColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSImage+NSColor.swift"; sourceTree = "<group>"; };
 		FAC0DCF01DE576F300309C49 /* PasteService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasteService.swift; sourceTree = "<group>"; };
-		FAC43DC61B35D8B100C06102 /* Clipy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clipy.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FAC43DD81B35D8B100C06102 /* ClipyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClipyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAC43DC61B35D8B100C06102 /* ClipyFork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClipyFork.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAC43DDD1B35D8B100C06102 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAC43E221B35DFC800C06102 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FAC43E241B35DFD000C06102 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -238,15 +220,7 @@
 				FAC43E271B35DFD300C06102 /* Carbon.framework in Frameworks */,
 				FAC43E251B35DFD000C06102 /* AppKit.framework in Frameworks */,
 				FAC43E231B35DFC800C06102 /* Foundation.framework in Frameworks */,
-				B7CC520B88EAA6AD38E93462 /* Pods_Clipy.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FAC43DD51B35D8B100C06102 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				242EC2327861D35B7C3AE84E /* Pods_ClipyTests.framework in Frameworks */,
+				082B9D09C3C9A8C7282A3C61 /* Pods_ClipyFork.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,8 +235,8 @@
 				FAC43E261B35DFD300C06102 /* Carbon.framework */,
 				FAC43E241B35DFD000C06102 /* AppKit.framework */,
 				FAC43E221B35DFC800C06102 /* Foundation.framework */,
-				73A92F6DEE6CFF50A567CFEF /* Pods_Clipy.framework */,
 				00A4B450122D7FCE6BD57E77 /* Pods_ClipyTests.framework */,
+				12544BD7792C38337D44098A /* Pods_ClipyFork.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -274,6 +248,8 @@
 				9DBBF976436A0651CB8BD4B2 /* Pods-Clipy.release.xcconfig */,
 				994536AAB91CE22186C3CFB1 /* Pods-ClipyTests.debug.xcconfig */,
 				1C2D23FF23B07B76585DC610 /* Pods-ClipyTests.release.xcconfig */,
+				ED15800E6D4F0DCED99C1155 /* Pods-ClipyFork.debug.xcconfig */,
+				319466107B5C97A8EA204A03 /* Pods-ClipyFork.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -509,8 +485,7 @@
 		FAC43DC71B35D8B100C06102 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FAC43DC61B35D8B100C06102 /* Clipy.app */,
-				FAC43DD81B35D8B100C06102 /* ClipyTests.xctest */,
+				FAC43DC61B35D8B100C06102 /* ClipyFork.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -530,10 +505,6 @@
 		FAC43DDB1B35D8B100C06102 /* ClipyTests */ = {
 			isa = PBXGroup;
 			children = (
-				FA08EDF71D1FED7D000D1D13 /* HotKeyServiceSpec.swift */,
-				FA6167931D3ACCB90049FA14 /* DraggedDataSpec.swift */,
-				FA6167911D3ABEB10049FA14 /* FolderSpec.swift */,
-				FA6167951D3ACDD80049FA14 /* SnippetSpec.swift */,
 				FAC43DDC1B35D8B100C06102 /* Supporting Files */,
 			);
 			path = ClipyTests;
@@ -550,9 +521,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FAC43DC51B35D8B100C06102 /* Clipy */ = {
+		FAC43DC51B35D8B100C06102 /* ClipyFork */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FAC43DE21B35D8B100C06102 /* Build configuration list for PBXNativeTarget "Clipy" */;
+			buildConfigurationList = FAC43DE21B35D8B100C06102 /* Build configuration list for PBXNativeTarget "ClipyFork" */;
 			buildPhases = (
 				8E8162F076D1C3115EAAB644 /* [CP] Check Pods Manifest.lock */,
 				FAC43DC21B35D8B100C06102 /* Sources */,
@@ -568,30 +539,10 @@
 			);
 			dependencies = (
 			);
-			name = Clipy;
+			name = ClipyFork;
 			productName = Clipy;
-			productReference = FAC43DC61B35D8B100C06102 /* Clipy.app */;
+			productReference = FAC43DC61B35D8B100C06102 /* ClipyFork.app */;
 			productType = "com.apple.product-type.application";
-		};
-		FAC43DD71B35D8B100C06102 /* ClipyTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FAC43DE51B35D8B100C06102 /* Build configuration list for PBXNativeTarget "ClipyTests" */;
-			buildPhases = (
-				7BFBD366B210014B03083E71 /* [CP] Check Pods Manifest.lock */,
-				FAC43DD41B35D8B100C06102 /* Sources */,
-				FAC43DD51B35D8B100C06102 /* Frameworks */,
-				FAC43DD61B35D8B100C06102 /* Resources */,
-				321A1AC02A519AFA3A4D43D2 /* [CP] Embed Pods Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				FAC43DDA1B35D8B100C06102 /* PBXTargetDependency */,
-			);
-			name = ClipyTests;
-			productName = ClipyTests;
-			productReference = FAC43DD81B35D8B100C06102 /* ClipyTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -606,15 +557,9 @@
 				TargetAttributes = {
 					FAC43DC51B35D8B100C06102 = {
 						CreatedOnToolsVersion = 6.3.2;
-						DevelopmentTeam = BBCHAJ584H;
+						DevelopmentTeam = SUZ95D4UJX;
 						LastSwiftMigration = 1140;
-						ProvisioningStyle = Manual;
-					};
-					FAC43DD71B35D8B100C06102 = {
-						CreatedOnToolsVersion = 6.3.2;
-						LastSwiftMigration = 1140;
-						ProvisioningStyle = Manual;
-						TestTargetID = FAC43DC51B35D8B100C06102;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -635,8 +580,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FAC43DC51B35D8B100C06102 /* Clipy */,
-				FAC43DD71B35D8B100C06102 /* ClipyTests */,
+				FAC43DC51B35D8B100C06102 /* ClipyFork */,
 			);
 		};
 /* End PBXProject section */
@@ -647,7 +591,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA1DB5131DDCB4C0007F95C8 /* CPYPreferencesWindowController.xib in Resources */,
-				FA6DD5141C7DEDB600317E73 /* BuildFile in Resources */,
+				FA6DD5141C7DEDB600317E73 /* (null) in Resources */,
 				FA1DB51E1DDCB4C0007F95C8 /* CPYTypePreferenceViewController.xib in Resources */,
 				FA1DB4901DDCA5D9007F95C8 /* Images.xcassets in Resources */,
 				FA1DB51D1DDCB4C0007F95C8 /* CPYShortcutsPreferenceViewController.xib in Resources */,
@@ -656,18 +600,11 @@
 				FA1DB51B1DDCB4C0007F95C8 /* CPYGeneralPreferenceViewController.xib in Resources */,
 				FA1DB51A1DDCB4C0007F95C8 /* CPYExcludeAppPreferenceViewController.xib in Resources */,
 				FA1DB5191DDCB4C0007F95C8 /* CPYBetaPreferenceViewController.xib in Resources */,
-				FA6DD5151C7DEDB600317E73 /* BuildFile in Resources */,
+				FA6DD5151C7DEDB600317E73 /* (null) in Resources */,
 				FA1DB4941DDCB22C007F95C8 /* dsa_pub.pem in Resources */,
 				FA1DB4981DDCB2CB007F95C8 /* Localizable.strings in Resources */,
 				FA1DB49F1DDCB417007F95C8 /* MainMenu.xib in Resources */,
 				FA1DB5221DDCB4C0007F95C8 /* CPYSnippetsEditorWindowController.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FAC43DD61B35D8B100C06102 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -680,11 +617,10 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Clipy/Pods-Clipy-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-ClipyFork/Pods-ClipyFork-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AEXML/AEXML.framework",
 				"${BUILT_PRODUCTS_DIR}/KeyHolder/KeyHolder.framework",
 				"${BUILT_PRODUCTS_DIR}/LetsMove/LetsMove.framework",
-				"${BUILT_PRODUCTS_DIR}/LoginServiceKit/LoginServiceKit.framework",
 				"${BUILT_PRODUCTS_DIR}/Magnet/Magnet.framework",
 				"${BUILT_PRODUCTS_DIR}/PINCache/PINCache.framework",
 				"${BUILT_PRODUCTS_DIR}/PINOperation/PINOperation.framework",
@@ -704,7 +640,6 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AEXML.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KeyHolder.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LetsMove.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LoginServiceKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Magnet.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINCache.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINOperation.framework",
@@ -721,45 +656,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Clipy/Pods-Clipy-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		321A1AC02A519AFA3A4D43D2 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ClipyTests/Pods-ClipyTests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
-				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ClipyTests/Pods-ClipyTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		7BFBD366B210014B03083E71 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ClipyTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ClipyFork/Pods-ClipyFork-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		8E8162F076D1C3115EAAB644 /* [CP] Check Pods Manifest.lock */ = {
@@ -773,7 +670,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Clipy-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-ClipyFork-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -806,7 +703,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/BartyCrouch/bartycrouch\" interfaces -p \"$PROJECT_DIR\"";
+			shellScript = "\"${PODS_ROOT}/BartyCrouch/bartycrouch\" interfaces -p \"$PROJECT_DIR\"\n";
 		};
 		FAAD02201CA98E20007C6EEE /* SwiftLint */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -879,26 +776,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FAC43DD41B35D8B100C06102 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FA6167921D3ABEB10049FA14 /* FolderSpec.swift in Sources */,
-				FA08EDF81D1FED7D000D1D13 /* HotKeyServiceSpec.swift in Sources */,
-				FA6167961D3ACDD80049FA14 /* SnippetSpec.swift in Sources */,
-				FA6167941D3ACCB90049FA14 /* DraggedDataSpec.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		FAC43DDA1B35D8B100C06102 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = FAC43DC51B35D8B100C06102 /* Clipy */;
-			targetProxy = FAC43DD91B35D8B100C06102 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		FA1DB4961DDCB2CB007F95C8 /* Localizable.strings */ = {
@@ -1132,24 +1010,27 @@
 		};
 		FAC43DE31B35D8B100C06102 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 31064F137CFB046737D1709D /* Pods-Clipy.debug.xcconfig */;
+			baseConfigurationReference = ED15800E6D4F0DCED99C1155 /* Pods-ClipyFork.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "-";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = SUZ95D4UJX;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = "Clipy/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.clipy-app.Clipy.debug";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clippy.fork.semenov;
+				PRODUCT_NAME = ClipyFork;
 				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
@@ -1159,12 +1040,13 @@
 		};
 		FAC43DE41B35D8B100C06102 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9DBBF976436A0651CB8BD4B2 /* Pods-Clipy.release.xcconfig */;
+			baseConfigurationReference = 319466107B5C97A8EA204A03 /* Pods-ClipyFork.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = "";
@@ -1174,60 +1056,14 @@
 				);
 				INFOPLIST_FILE = "Clipy/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.clipy-app.Clipy";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clippy.fork.semenov;
+				PRODUCT_NAME = ClipyFork;
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
-		FAC43DE61B35D8B100C06102 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 994536AAB91CE22186C3CFB1 /* Pods-ClipyTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = ClipyTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.clipyapp.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Clipy.app/Contents/MacOS/Clipy";
-			};
-			name = Debug;
-		};
-		FAC43DE71B35D8B100C06102 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1C2D23FF23B07B76585DC610 /* Pods-ClipyTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = ClipyTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.clipyapp.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Clipy.app/Contents/MacOS/Clipy";
 			};
 			name = Release;
 		};
@@ -1243,20 +1079,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FAC43DE21B35D8B100C06102 /* Build configuration list for PBXNativeTarget "Clipy" */ = {
+		FAC43DE21B35D8B100C06102 /* Build configuration list for PBXNativeTarget "ClipyFork" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FAC43DE31B35D8B100C06102 /* Debug */,
 				FAC43DE41B35D8B100C06102 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FAC43DE51B35D8B100C06102 /* Build configuration list for PBXNativeTarget "ClipyTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FAC43DE61B35D8B100C06102 /* Debug */,
-				FAC43DE71B35D8B100C06102 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

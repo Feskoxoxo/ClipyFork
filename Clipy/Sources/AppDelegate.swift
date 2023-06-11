@@ -14,7 +14,6 @@ import Cocoa
 import Sparkle
 import RxCocoa
 import RxSwift
-import LoginServiceKit
 import Magnet
 import Screeen
 import RxScreeen
@@ -142,25 +141,13 @@ class AppDelegate: NSObject, NSMenuItemValidation {
         if alert.runModal() == NSApplication.ModalResponse.alertFirstButtonReturn {
             AppEnvironment.current.defaults.set(true, forKey: Constants.UserDefaults.loginItem)
             AppEnvironment.current.defaults.synchronize()
-            reflectLoginItemState()
+//            reflectLoginItemState()
         }
         // Do not show this message again
         if alert.suppressionButton?.state == NSControl.StateValue.on {
             AppEnvironment.current.defaults.set(true, forKey: Constants.UserDefaults.suppressAlertForLoginItem)
             AppEnvironment.current.defaults.synchronize()
         }
-    }
-
-    private func toggleAddingToLoginItems(_ isEnable: Bool) {
-        let appPath = Bundle.main.bundlePath
-        LoginServiceKit.removeLoginItems(at: appPath)
-        guard isEnable else { return }
-        LoginServiceKit.addLoginItems(at: appPath)
-    }
-
-    private func reflectLoginItemState() {
-        let isInLoginItems = AppEnvironment.current.defaults.bool(forKey: Constants.UserDefaults.loginItem)
-        toggleAddingToLoginItems(isInLoginItems)
     }
 }
 
@@ -213,12 +200,12 @@ extension AppDelegate: NSApplicationDelegate {
 private extension AppDelegate {
     func bind() {
         // Login Item
-        AppEnvironment.current.defaults.rx.observe(Bool.self, Constants.UserDefaults.loginItem, retainSelf: false)
-            .compactMap { $0 }
-            .subscribe(onNext: { [weak self] _ in
-                self?.reflectLoginItemState()
-            })
-            .disposed(by: disposeBag)
+//        AppEnvironment.current.defaults.rx.observe(Bool.self, Constants.UserDefaults.loginItem, retainSelf: false)
+//            .compactMap { $0 }
+//            .subscribe(onNext: { [weak self] _ in
+//                self?.reflectLoginItemState()
+//            })
+//            .disposed(by: disposeBag)
         // Observe Screenshot
         let observerScreenshot = AppEnvironment.current.defaults.rx.observe(Bool.self, Constants.Beta.observerScreenshot, retainSelf: false)
             .compactMap { $0 }
